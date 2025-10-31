@@ -1,6 +1,7 @@
+//funcionou
 const apiKey = "RGAPI-efa3b3bb-c888-4da6-82c7-83ca19cafda2";
 
-fetch(`https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/Hyoku/Hyoku%23Ruiva?api_key=RGAPI-a235d6d7-4acc-46c4-8079-6e3d8ad32a39`, {
+fetch(`https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/Hyoku/Ruiva`, {
     method: "GET",
     headers: {
     "X-Riot-Token": apiKey
