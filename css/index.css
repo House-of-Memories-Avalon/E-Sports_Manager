@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid, bisque;
+    background-color: brown;
+    padding: 15px 50px;
+}
+
+.barra-pesquisa input {
+    width: 198px;
+    padding: 10;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.equipe-container {
+ 
+    align-items: center;
+    width: 320px;
+    margin-bottom: 20px;
+    background-color: rgb(158, 24, 24);
+}
+.icon{
+    width: 32px;
+    height: 32px;
+}
+.player-button-icon{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 320px;
+    margin-bottom: 20px;
+    background-color: rgb(158, 24, 24);
+}
+.info-container {
+    align-items: center;
+    width: 320px;
+    margin-bottom: 20px;
+    background-color: blue;
+}
+button {
+    width: 55px;
+    padding: 10;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+body {
+    background: fixed;
+    text-align: justify;
+    background-color: bisque;
+    box-shadow: white;
+}
+
+h3 {
+    width: 300;
+    text-align: left;
+    color: blue;
+
+}
+
+h2 {
+    width: 100;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(230, 193, 149);
+}
+
