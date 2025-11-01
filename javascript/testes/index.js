@@ -160,7 +160,7 @@ async function buscarPartidas(apiKey, puuid) {
   // 3. Extrair os objetos dos jogadores
   const jogadores = partida.info.participants;
 
-  console.log("👾 Lista de jogadores:", jogadores);
+  console.log("Lista de jogadores:", jogadores);
 
   // 4. Exemplo: exibir nomes e campeões
   jogadores.forEach(j => {
