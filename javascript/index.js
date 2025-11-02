@@ -307,9 +307,21 @@ async function main() {
   //const itens = await buscarDadosItens(apiKey, puuid);
   //console.log(`Itens dos jogaddores: ${itens}`);
 
-  buscarDadosParticipantes(apiKey, puuid);
-  
-
+  buscarDadosParticipantes(apiKey, puuid)
 }
 
 main();
+
+export {
+  PegarGameName,
+  PegarTagLine,
+  PegarId,
+  PegarRegiao,
+  PegarPartida,
+  PegarCriacaoJogo,
+  PegarJogadoresPartida,
+  ConsultarElo,
+  buscarDadosParticipantes,
+  calcularTotalOuro,
+  main
+}
