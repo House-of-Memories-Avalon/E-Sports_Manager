@@ -1,67 +1,60 @@
-<!DOCTYPE html>
-<html lang="PT-br">
-
+'<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Sport Maneger</title>
-    <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Sport Manager</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-
 <body>
-    <header class="topo">
-        <div class="barra-pesquisa">
 
-            <section id="dados do jogador">
-                <label for="Nick Name">GameTag</label>
-                <input type="text" id="tag" placeholder="OttoReis#goat" maxlength="22">
-            </section>
-        </div>
-    </header>
-    <h1>E-Sport Manager</h1>
-    <div class="equipe-container" h2>Tabela de dano de Equipe</h2>
-        <div class="player-button-icon ">
-            <label class="campeoes" for="campeao" id = puuid> </label>
+  <header class="top-bar">
+    <div class="gold.blue">Ouro: <span id="goldBlue">23000</span>k</div>
+    <div class="timer" id="timer">27:35</div>
+    <div class="gold.red">Ouro: <span id="goldRed">18000</span>k</div>
+  </header>
 
-            <img src=""alt="Imagem">
-        </div>
+  <main class="painel">
+    <!-- Equipe Azul -->
+    <section class="equipe azul">
+      <h2>Equipe Azul</h2>
+      <div class="campeoes">
+        <img src="dragontail-10.10.5/img/champion/tiles/Jax_0.jpg" alt="",width="64px", height="64px">
+        <img src="dragontail-10.10.5/img/champion/tiles/MasterYi_0.jpg" alt="",width="64px", height="64px">
+        <img src="dragontail-10.10.5/img/champion/tiles/TwistedFate_0.jpg" alt="",width="64px", height="64px">
+        <img src="dragontail-10.10.5/img/champion/tiles/Corki_0.jpg" alt="",width="64px", height="64px">
+        <img src="dragontail-10.10.5/img/champion/tiles/Thresh_0.jpg" alt="",width="64px", height="64px">
+         <div class="grafico">
+        <h3>Tabela de dano da Equipe</h3>
+        <canvas id="graficoAzul"></canvas>
+      </div>
+      </div>
+     
+    </section>
+
+    <div class="vs">
+      <h1>VS</h1>
     </div>
 
-    <div class="info-container " h2> Informações do Jogador</h2>
-        <div class="champions-button-icon" >
-            <img src="" alt="art">
-        </div>
-        <div class ="maestria" >
-       <ul>
-        <p>Maestria</p>
-        <p>elo</p>
-        <p>spells</p>
-       </ul>
-        <ul>Runas
-            <a href="" >
-        </ul>
-        <ul> <p>tabela em forma de barra</p>
-            <li> Dano Causado</li>
-            <li>Cura Realizada</li>
-            <li>Dano Recebido</li>
-        </ul>
-    </div>
-    <nav>
-        <button id="btnEquipe">Equipe</button>
-        <button id="btngeral">Geral</button>
-    </nav>
-    <div>
-        <table>
-            <p> Equipe Azul</p>
-        </table>
-        <table>
-            <p>Equipe Vermelha</p>
-        </table>
-    </div>
+    <!-- Equipe Vermelha -->
+    <section class="equipe vermelha">
+      <h2>Equipe Vermelha</h2>
+      <div class="campeoes">
+        <img src="dragontail-10.10.5/img/champion/tiles/Fiora_0.jpg" alt="",width="64px", height="64px">
+        <img src="dragontail-10.10.5/img/champion/tiles/Vi_0.jpg" alt="",width="64px", height="64px">
+        <img src="dragontail-10.10.5/img/champion/tiles/Syndra_0.jpg" alt="",width="64px", height="64px">
+        <img src="dragontail-10.10.5/img/champion/tiles/MissFortune_0.jpg" alt="",width="64px", height="64px">
+        <img src="dragontail-10.10.5/img/champion/tiles/Karma_0.jpg" alt="",width="64px", height="64px">
+         <div class="grafico">
+        <h3>Tabela de dano da Equipe</h3>
+        <canvas id="graficoVermelho", ></canvas>
+      </div>
+      </div>
+     
+    </section>
+  </main>
 
-    <h2>Tela de Dano</h2>
+  <script src="css/JS/script.js"></script>
 </body>
-
-<script src="javascript/index.js"></script>
-
-</html>
+</html>'

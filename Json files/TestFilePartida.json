@@ -1,0 +1,42 @@
+metadata: {
+    dataVersion: '2',
+    matchId: 'BR1_3158072111',
+    participants: [
+      'FFPOFajQ3m_5hDMLJAao3rqjZcXP-3q4o8QvQEgII5JprihJcFThiU11Fy36Imv_Ja349-J7BXZ0FQ',
+      'qh3ZPZvzlL5g79wjElHhIkwXaBXRkVHV1OV1L5T1HTorxVZyENka3df65bDsePNMGuKl0MlCLlnksA',
+      'Iw96KoPoOzl0UvWB7zOYvdPE1vFYGzYBBgCnvl5XhDX0Gz1cwhCAsDKziN-PUFqCt38XVRv6BiltRw',
+      '-ReLDxJkIVOGXOQvms65-EuEkloTyq2rZfmQ80HZUVOenJ8XIqAZsxHMaGZxvCxlRMvB08r8sY0DbQ',
+      'oH1Ukp6WveL0x9a1lBBEi8ULndU6aqtcwFeEQbV5Pj21DNxp_fSDP0REWQvJRDwCls9zuIIynslznw',
+      'zUpHtSRqDF9G6Vq-QvakgvfJN9ECQ4P5IoeVHwbysOeWhrdPK--wv2sPnmA0StdSOU1uDJA0Taajkg',
+      'vLABjsH5dFRbR-HCOYTR8JPk4FOecp_sdGPhVrw6dUzNDeGtJA1VsNv2ucbDNuUX5QHxJ_q71Yc_-g',
+      '5_e3iqin-CcqavDho736A8ZLlk9TpCvSmbeukoLR6OaEgX9PvAV01Hu71lX0nER1vRoC2RrpehtUTQ',
+      'ZFeLn0PYfS_qjf2lZqFluhOYyYVgD5rzsNaX2KZVSzowOWHS-AbgtFH7qPsXtJAaT-LpWr7Ly5wGcg',
+      'GxC6cET1BW_H0v-aLOaZpUFMAWhN8rEr9AuNeEqCJJuyOiD7fEzewIXzbT64HiNwbT73Oj5M4qwkeQ'
+    ]
+  },
+  info: {
+    endOfGameResult: 'GameComplete',
+    gameCreation: 1761093871156,
+    gameDuration: 1375,
+    gameEndTimestamp: 1761095305404,
+    gameId: 3158072111,
+    gameMode: 'ARAM',
+    gameModeMutators: [],
+    gameName: 'teambuilder-match-3158072111',
+    gameStartTimestamp: 1761093929845,
+    gameType: 'MATCHED_GAME',
+    gameVersion: '15.20.719.545',
+    mapId: 12,
+    participants: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    platformId: 'BR1',
+    queueId: 450,
+    teams: [ [Object], [Object] ],
+    tournamentCode: ''
+  }
+}
