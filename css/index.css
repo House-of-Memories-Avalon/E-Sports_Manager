@@ -37,6 +37,10 @@
     margin-bottom: 20px;
     background-color: rgb(158, 24, 24);
 }
+.campeoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 .info-container {
     align-items: center;
     width: 320px;
